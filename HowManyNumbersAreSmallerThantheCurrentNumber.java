@@ -16,7 +16,14 @@ public class HowManyNumbersAreSmallerThantheCurrentNumber {
 
         for(int i=0; i<nums.length; ++i)
         {
-            res[i] = count[nums[i]];
+            if(nums[i]==0)
+            {
+                res[i] = 0;
+            }
+            else
+            {
+                res[i] = count[nums[i]-1];
+            }
         }
 
         return res;

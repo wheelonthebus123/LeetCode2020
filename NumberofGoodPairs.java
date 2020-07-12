@@ -6,7 +6,10 @@ public class NumberofGoodPairs {
         HashMap<Integer, Integer> counts = new HashMap<Integer, Integer>();
         for(int v:nums)
         {
-            counts.put(v, counts.get(v)+1);
+            if(counts.containsKey(v))
+                counts.put(v, counts.get(v)+1);
+            else
+                counts.put(v, 1);
         }
 
         int ret = 0;

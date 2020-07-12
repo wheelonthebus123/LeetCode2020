@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntersectionofThreeSortedArrays",
+            "request": "launch",
+            "mainClass": "IntersectionofThreeSortedArrays",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HowManyNumbersAreSmallerThantheCurrentNumber",
+            "request": "launch",
+            "mainClass": "HowManyNumbersAreSmallerThantheCurrentNumber",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofGoodPairs",
+            "request": "launch",
+            "mainClass": "NumberofGoodPairs",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainsDuplicateII",
+            "request": "launch",
+            "mainClass": "ContainsDuplicateII",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "ContainsDuplicate",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IslandPerimeter",
+            "request": "launch",
+            "mainClass": "IslandPerimeter",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HappyNumber<lc2020_c683cb6d>",
+            "request": "launch",
+            "mainClass": "HappyNumber",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JewelsandStones<lc2020_c683cb6d>",
+            "request": "launch",
+            "mainClass": "JewelsandStones",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestSubstringWithoutRepeatingCharacters<lc2020_c683cb6d>",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumber<lc2020_c683cb6d>",
+            "request": "launch",
+            "mainClass": "SingleNumber",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Twosum<lc2020_c683cb6d>",
+            "request": "launch",
+            "mainClass": "Twosum",
+            "projectName": "lc2020_c683cb6d"
+        }
+    ]
+}
