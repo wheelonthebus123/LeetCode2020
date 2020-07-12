@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaximumNumberofBalloons_1189",
+            "request": "launch",
+            "mainClass": "MaximumNumberofBalloons_1189",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IntersectionofThreeSortedArrays",
             "request": "launch",
             "mainClass": "IntersectionofThreeSortedArrays",
