@@ -70,10 +70,11 @@ public class AlienDictionary {
         seq.add(c);
         return false;
     }
-
+/*
     public static void main(String[] args) {
         String[] words = new String[] {"abc", "ab"};
         String ret = alienOrder(words);
         System.out.println(ret);
     }
+    */
 }

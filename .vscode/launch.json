@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RandomizedSet",
+            "request": "launch",
+            "mainClass": "InsertDeleteGetRandom_380.RandomizedSet",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "AlienDictionary_269.Solution",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlienDictionary1",
+            "request": "launch",
+            "mainClass": "test.AlienDictionary1",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlienDictionary",
+            "request": "launch",
+            "mainClass": "AlienDictionary",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindWordsThatCanBeFormedbyCharacters_1160",
+            "request": "launch",
+            "mainClass": "FindWordsThatCanBeFormedbyCharacters_1160",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaximumNumberofBalloons_1189",
             "request": "launch",
             "mainClass": "MaximumNumberofBalloons_1189",
