@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PacificAtlanticWaterFlow_417",
+            "request": "launch",
+            "mainClass": "PacificAtlanticWaterFlow_417",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestTimetoBuyandSellStockIII_123",
+            "request": "launch",
+            "mainClass": "BestTimetoBuyandSellStockIII_123",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestRectangleinHistogram_84",
+            "request": "launch",
+            "mainClass": "LargestRectangleinHistogram_84",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TrappingRainWater_42",
+            "request": "launch",
+            "mainClass": "TrappingRainWater_42",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RandomizedCollection",
             "request": "launch",
             "mainClass": "InsertDeleteGetRandom_DuplicatesAllowed_381.RandomizedCollection",
