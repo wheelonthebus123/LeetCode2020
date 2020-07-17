@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BasicCalculator_224",
+            "request": "launch",
+            "mainClass": "BasicCalculator_224",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinChange2_518",
+            "request": "launch",
+            "mainClass": "CoinChange2_518",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinChange_322",
+            "request": "launch",
+            "mainClass": "CoinChange_322",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PacificAtlanticWaterFlow_417",
             "request": "launch",
             "mainClass": "PacificAtlanticWaterFlow_417",
