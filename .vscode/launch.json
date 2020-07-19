@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BasicCalculatorIII_772",
+            "request": "launch",
+            "mainClass": "BasicCalculatorIII_772",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BasicCalculatorII_227",
+            "request": "launch",
+            "mainClass": "BasicCalculatorII_227",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BasicCalculator_224",
             "request": "launch",
             "mainClass": "BasicCalculator_224",
