@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CompareStringsbyFrequencyoftheSmallestCharacter_1170",
+            "request": "launch",
+            "mainClass": "CompareStringsbyFrequencyoftheSmallestCharacter_1170",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BasicCalculatorIII_772",
             "request": "launch",
             "mainClass": "BasicCalculatorIII_772",
