@@ -1,64 +1,61 @@
 import java.util.*;
 public class BasicCalculatorIII_772 {
     public int calculate(String s) {
-        Deque<Integer> operands = new ArrayDeque<>();
-        Deque<Character> operators = new ArrayDeque<>();
-        int n = s.length();
-        for (int i = 0; i < n; i++) {
-            char c = s.charAt(i);
-            if (Character.isDigit(c)) {
-                int val = Character.getNumericValue(s.charAt(i));
-                while (i + 1 < n && Character.isDigit(s.charAt(i + 1))) {
-                    val = val * 10 + Character.getNumericValue(s.charAt(i + 1));
-                    i++;
-                }
-                operands.push(val);
-            } else if (c == ' ') {
-                continue;
-            } else if (c == '(') {
-                operators.push(c);
-            } else if (c == ')') {
-                while (operators.peek() != '(') {
-                    operands.push(operate(operands, operators));
-                }
-                operators.pop();
-            } else {
-                while (!operators.isEmpty() && comparePrecedence(c, operators.peek()) <= 0) {
-                    operands.push(operate(operands, operators));
-                }
-                operators.push(c);
+        Stack<Integer> nums = new Stack<>();
+        Stack<Character> ops = new Stack<>();
+        int v = 0;
+        boolean hasV = false;
+        s += '+';
+
+        for(char c:s.toCharArray()){
+            if(c==' ') continue;
+            else if(Character.isDigit(c)){
+                v = v*10 + c - '0';
+                hasV = true;
+            }else if(c=='('){
+                ops.push(c);
+            }else if(c==')'){
+                if(hasV)
+                    nums.push(v); v = 0; hasV = false;
+                while(!ops.empty() && ops.peek()!='(')
+                    evaluate(nums, ops);   
+                ops.pop();             
+            }else{//'+', '-'
+                if(hasV)
+                    nums.push(v); v = 0; hasV = false;
+                while(!ops.empty() && precedence(ops.peek())>=precedence(c))
+                    evaluate(nums, ops);
+                ops.push(c);
             }
         }
-        
-        while (!operators.isEmpty()) {
-            operands.push(operate(operands, operators));
-        }
-        
-        return operands.pop();
+
+        return nums.pop();
     }
-    
-    private int comparePrecedence(char a, char b) {
-        Map<Character, Integer> map = new HashMap<>();
-        map.put('(', -1);
-        map.put('+', 0);
-        map.put('-', 0);
-        map.put('*', 1);
-        map.put('/', 1);
-        return map.get(a) - map.get(b);
-    }
-    
-    private int operate(Deque<Integer> operands, Deque<Character> operators) {
-        int a = operands.pop();
-        int b = operands.pop();
-        char c = operators.pop();
-        
-        switch(c) {
-            case '+' : return a + b;
-            case '-': return b - a;
-            case '*': return a * b;
-            case '/': return b / a;
-            default: return 0;
+
+    int precedence(char op){
+        switch(op){
+            case '+' : return 0;
+            case '-' : return 0;
+            case '*' : return 1;
+            case '/' : return 1;
+            default: return -2;
         }
+    }
+
+    void evaluate(Stack<Integer> nums, Stack<Character> ops){
+        int r = nums.pop();
+        int l = nums.pop();
+        char op = ops.pop();
+        int result = 0;
+        switch (op)
+        {
+            case '+' : result = l+r; break;
+            case '-' : result = l-r; break;
+            case '*' : result = l*r; break;
+            case '/' : result = l/r; break;
+            default: break;
+        }
+        nums.push(result);
     }
 
     public static void main(String[] args) {
