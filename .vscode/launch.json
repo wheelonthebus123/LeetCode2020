@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TwoSumLessThanK_1099",
+            "request": "launch",
+            "mainClass": "TwoSumLessThanK_1099",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CompareStringsbyFrequencyoftheSmallestCharacter_1170",
             "request": "launch",
             "mainClass": "CompareStringsbyFrequencyoftheSmallestCharacter_1170",
