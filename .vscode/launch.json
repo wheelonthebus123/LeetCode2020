@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestDistancetoaCharacter_821",
+            "request": "launch",
+            "mainClass": "ShortestDistancetoaCharacter_821",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - XofaKindinaDeckofCards_914",
+            "request": "launch",
+            "mainClass": "XofaKindinaDeckofCards_914",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TwoSumLessThanK_1099",
             "request": "launch",
             "mainClass": "TwoSumLessThanK_1099",
