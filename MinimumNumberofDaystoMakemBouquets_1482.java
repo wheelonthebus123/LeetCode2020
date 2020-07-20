@@ -1,6 +1,6 @@
 public class MinimumNumberofDaystoMakemBouquets_1482 {
     public int minDays(int[] bloomDay, int m, int k) {
-        int l = 1, r = 10^9;
+        int l = 1, r = (int)1e9;
         int n = bloomDay.length;
         if(m*k>n) return -1;
         while(l<r){

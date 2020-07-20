@@ -7,7 +7,7 @@ public class MaximumSumofTwoNonOverlappingSubarrays_1031 {
         for(int i=L+M; i<n; ++i)
         {
             Lmax = Math.max(Lmax, A[i-M] - A[i-L-M]);
-            Mmax = Math.max(Mmax, A[i-L] = A[i-L-M]);
+            Mmax = Math.max(Mmax, A[i-L] - A[i-L-M]);
             ret = Math.max(ret, Math.max(Lmax + A[i] - A[i-M], Mmax + A[i] - A[i-L]));
         }
         return ret;

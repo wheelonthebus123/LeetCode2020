@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindtheSmallestDivisorGivenaThreshold_1283",
+            "request": "launch",
+            "mainClass": "FindtheSmallestDivisorGivenaThreshold_1283",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumNumberofDaystoMakemBouquets_1482",
+            "request": "launch",
+            "mainClass": "MinimumNumberofDaystoMakemBouquets_1482",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumSumofTwoNonOverlappingSubarrays_1031",
+            "request": "launch",
+            "mainClass": "MaximumSumofTwoNonOverlappingSubarrays_1031",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
             "mainClass": "Test",
