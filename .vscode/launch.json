@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DivideChocolate_1231",
+            "request": "launch",
+            "mainClass": "DivideChocolate_1231",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayLargestSum_410",
+            "request": "launch",
+            "mainClass": "SplitArrayLargestSum_410",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindtheSmallestDivisorGivenaThreshold_1283",
             "request": "launch",
             "mainClass": "FindtheSmallestDivisorGivenaThreshold_1283",

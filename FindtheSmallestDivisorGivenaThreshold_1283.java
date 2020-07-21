@@ -1,12 +1,12 @@
 public class FindtheSmallestDivisorGivenaThreshold_1283 {
     public int smallestDivisor(int[] nums, int threshold) {
-        double l = 1, r = (int)1e6;
+        int l = 1, r = (int)1e6;
         while(l<r)
         {
-            double mid = l + (r-l)/2;
+            int mid = l + (r-l)/2;
             int sum = 0;
             for(int n:nums){
-                sum += Math.ceil(n/mid);
+                sum += Math.ceil(n/(double)mid);
             }
             if(sum>threshold) l = mid+1;
             else r = mid;
