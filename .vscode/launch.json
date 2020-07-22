@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MyCalendarII_731",
+            "request": "launch",
+            "mainClass": "MyCalendarII_731",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxChunksToMakeSorted_769",
+            "request": "launch",
+            "mainClass": "MaxChunksToMakeSorted_769",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofMatchingSubsequences_792",
+            "request": "launch",
+            "mainClass": "NumberofMatchingSubsequences_792",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RevealCardsInIncreasingOrder_950",
+            "request": "launch",
+            "mainClass": "RevealCardsInIncreasingOrder_950",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumDominoRotationsForEqualRow_1007",
+            "request": "launch",
+            "mainClass": "MinimumDominoRotationsForEqualRow_1007",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DivideChocolate_1231",
             "request": "launch",
             "mainClass": "DivideChocolate_1231",
