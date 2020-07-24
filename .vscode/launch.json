@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FirstMissingPositive_41",
+            "request": "launch",
+            "mainClass": "FirstMissingPositive_41",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimalAccountBalancing_465",
+            "request": "launch",
+            "mainClass": "OptimalAccountBalancing_465",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiagonalTraverse_498",
+            "request": "launch",
+            "mainClass": "DiagonalTraverse_498",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CandyCrush_723",
+            "request": "launch",
+            "mainClass": "CandyCrush_723",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyCalendarIII_732",
+            "request": "launch",
+            "mainClass": "MyCalendarIII_732",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MyCalendarII_731",
             "request": "launch",
             "mainClass": "MyCalendarII_731",
