@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ExpressiveWords_809",
+            "request": "launch",
+            "mainClass": "ExpressiveWords_809",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringCompression_443",
+            "request": "launch",
+            "mainClass": "StringCompression_443",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongPressedName_925",
+            "request": "launch",
+            "mainClass": "LongPressedName_925",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountandSay_38",
+            "request": "launch",
+            "mainClass": "CountandSay_38",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SetMismatch_645",
+            "request": "launch",
+            "mainClass": "SetMismatch_645",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FirstMissingPositive_41",
             "request": "launch",
             "mainClass": "FirstMissingPositive_41",

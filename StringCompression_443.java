@@ -7,10 +7,10 @@ public class StringCompression_443 {
             int j = i;
             while(j<n && chars[i]==chars[j]) j++;
             int count = j-i;
-            chars[++ret] = chars[i];
+            chars[ret++] = chars[i];
             if(count>1){
                 for(char c : Integer.toString(count).toCharArray()){
-                    chars[++ret] = c;
+                    chars[ret++] = c;
                 }
             }
             i = j;
