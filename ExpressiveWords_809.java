@@ -17,13 +17,17 @@ public class ExpressiveWords_809 {
             while(j1<nw && w.charAt(j1)==w.charAt(j)) j1++;
             int cntS = i1-i, cntW = j1-j;
             if(cntS<cntW) return false;
-            if(cntS>cntW && cntW<3) return false;
-            i = i1, j = j1;
+            if(cntS>cntW && cntS<3) return false;
+            i = i1;
+            j = j1;
         }
         return i==ns && j==nw;
     }
 
     public static void main(String[] args) {
         System.out.println("Hi");
+        String[] words = new String[]{"hello"};
+        ExpressiveWords_809 sol = new ExpressiveWords_809();
+        sol.expressiveWords("h", words);
     }
 }
