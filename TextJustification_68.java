@@ -7,10 +7,12 @@ public class TextJustification_68 {
 
         while(i<n){
             int len = 0;//length of current line
+            int netLen = 0;//length of all words
             int cnt = 0;//number of words
             int j = i;//index of next word
             while(j<n && (len + words[j].length() + (cnt==0?0:1))<=maxWidth){
                 len += words[j].length() + (cnt==0?0:1);
+                netLen += words[j].length();
                 j++;
                 cnt++;
             }
@@ -27,8 +29,8 @@ public class TextJustification_68 {
                     sb.append(" ");
                 }
             }else{
-                int space = (maxWidth - len) / (cnt-1);
-                int cntWordsWithLongerSpace = (maxWidth - len) % (cnt-1);
+                int space = (maxWidth - netLen) / (cnt-1);
+                int cntWordsWithLongerSpace = (maxWidth - netLen) % (cnt-1);
                 for(int k=i; k<j; ++k){
                     if(sb.length()>0){
                         sb.append(new String(new char[space]).replace('\0', ' '));
