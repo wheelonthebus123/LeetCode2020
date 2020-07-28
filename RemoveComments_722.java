@@ -6,11 +6,11 @@ public class RemoveComments_722 {
     public List<String> removeComments(String[] source) {
         List<String> code = new ArrayList<>();
         boolean isComments = false;
+        StringBuilder newLine = new StringBuilder();
         for(String line : source){
             int i = 0;
-            StringBuilder newLine = new StringBuilder();
-            while(i<line.length()){
-                int n = line.length();
+            int n = line.length();
+            while(i<n){  
                 if(isComments){//in between /* */
                     if(i<n && line.charAt(i)=='*' && i+1<n && line.charAt(i+1)=='/'){
                         isComments = false;

@@ -41,7 +41,7 @@
  -- Whenever see ']', we complete a NestedInteger list. 
     ----If the stack is empty, the completed NestedInteger list is our answer so we push it back to the stack.
     ----Otherwise, the completed NestedInteger is part of an unfinished list, which is also the top of the stack. So we add it to the stack's top element. 
-*/
+
 class Solution {
     public NestedInteger deserialize(String s) {
         Stack<NestedInteger> stk = new Stack();
@@ -80,3 +80,4 @@ class Solution {
         else return stk.pop();
     }
 }
+*/

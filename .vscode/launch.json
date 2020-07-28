@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TextJustification_68",
+            "request": "launch",
+            "mainClass": "TextJustification_68",
+            "projectName": "lc2020_c683cb6d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RemoveComments_722",
             "request": "launch",
             "mainClass": "RemoveComments_722",
