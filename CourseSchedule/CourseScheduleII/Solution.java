@@ -14,7 +14,6 @@ public class Solution {
             preqs.computeIfAbsent(p[0], k -> new HashSet<Integer>()).add(p[1]);
         }
 
-        boolean foundCycle = false;
         for(int c = 0; c<numCourses; ++c){
             path.add(c);
             if(!visited.contains(c) && hasCycle(c))
